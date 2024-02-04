@@ -35,11 +35,54 @@
                 </p> 
             </div>
 
-            <form action="#">
-                <input type="text" placeholder="First Name">
-                <input type="text" placeholder="Last Name">
-                <input type="email" required placeholder="Email Address">
-                <input type="password" required placeholder="Password">
+            <div class="form">
+                <div class="container">
+                    <label for="" class="fname-label">First Name</label>
+                    <input 
+                        type="text" 
+                        placeholder="First Name" 
+                        class="fname-input">
+                    <img src="images/icon-error.svg" class="error-icon fname-error-icon" alt="">
+                    <p class="error-message fname-error-message"></p>
+                </div>
+
+                <div class="container">
+                    <label for="" class="lname-label">Last Name</label>
+                    <input 
+                        type="text" 
+                        placeholder="Last Name" 
+                        class="lname-input">
+                    <img src="images/icon-error.svg" class="error-icon lname-error-icon" alt="">
+                    <p class="error-message lname-error-message">
+                        Last Name cannot be empty
+                    </p>
+                </div>
+
+                <div class="container">
+                    <label for="" class="email-label">Email</label>
+                    <input 
+                        type="email" 
+                        required 
+                        placeholder="Email Address" 
+                        class="email-input">
+                    <img src="images/icon-error.svg" class="error-icon email-error-icon" alt="">
+                    <p class="error-message email-error-message">
+                        Looks like this is not an email
+                    </p>
+                </div>
+
+                <div class="container">
+                    <label for="" class="pword-label">Password</label>
+                    <input 
+                        type="password" 
+                        required 
+                        placeholder="Password" 
+                        class="pword-input">
+                    <img src="images/icon-error.svg" class="error-icon pword-error-icon" alt="">
+                    <p class="error-message pword-error-message">
+                        Password cannot be empty
+                    </p>
+                </div>
 
                 <button class="claim-button">
                     CLAIM YOUR FREE TRIAL
@@ -48,7 +91,7 @@
                 <p class="policy">
                     By clicking the button, you are agreeing to our <span class="terms-and-services">Terms and Services</span>
                 </p>
-            </form>
+            </div>
 
 
         </div>
@@ -57,8 +100,10 @@
     <footer>
         <p class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Ashong Abdallah</a>.
+        Coded by <a href="https://www.frontendmentor.io/profile/AshongAbdallah06" target="_blank">Ashong Abdallah</a>.
         </p>
     </footer>
+    
+    <script type="module" src="scripts/index.js"></script>
 </body>
 </html>

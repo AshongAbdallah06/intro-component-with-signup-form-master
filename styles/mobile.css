@@ -33,4 +33,7 @@
         width: 100%;
     }
 
+    .attribution {
+        bottom: -150px;
+    }
 }
